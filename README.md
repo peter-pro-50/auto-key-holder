@@ -2,11 +2,11 @@
 
 ![AutoKeyHolder — screenshot](AutoKeyHolder.png)
 
-**AutoKeyHolder** is a lightweight, portable **key holder software** for Windows. It presses
+**AutoKeyHolder** is a lightweight **key holder software** for Windows. It presses
 a key and **holds it down** for you — hands-free — so you don't have to keep a finger on the
 keyboard. One press starts the hold, and the key stays down until an auto-release timer
-elapses or you release it with a second hotkey. A single, self-contained `.exe`: no
-installer, no runtime to download, no loose DLLs.
+elapses or you release it with a second hotkey. A small Windows `.msi`
+installer: no runtime to download, no loose DLLs.
 
 Unlike a rapid tapper, AutoKeyHolder does not repeatedly tap a key — it keeps a **single key
 held down** continuously. If you've ever needed to **auto hold key on Windows** — hold **W**
@@ -53,8 +53,8 @@ which keeps it clean for antivirus.
 
 ## Getting started
 
-1. Download `AutoKeyHolder.exe` (or `AutoKeyHolder.zip` and extract it).
-2. Double-click `AutoKeyHolder.exe`. No installation required.
+1. Download `AutoKeyHolder.zip` and extract it.
+2. Run `AutoKeyHolder.msi` and follow the installer.
 3. Pick the key to hold — press a preset (**W / Shift / Space / Alt**) or **Set key**.
 4. Press **HOLD** (or the **F7** hotkey). The indicator turns to **HOLDING**.
 5. Release with the **F8** hotkey, the **RELEASE** button, or let the **auto-release** timer
